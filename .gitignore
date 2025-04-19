@@ -1,0 +1,27 @@
+Godot 4+ specific ignores
+
+.godot/ /android/
+
+Godot general ignores
+
+*.import .import/ export/ *.log *.bak *.tmp *.tscn.bak *.tres.bak *.godot
+
+Build outputs
+
+export_presets.cfg *.zip *.exe *.app *.apk *.aab
+
+Godot Mono (C#) ignores
+
+mono/ *.csproj *.sln
+
+Temporary files
+
+*.swp *~
+
+OS-specific
+
+.DS_Store Thumbs.db desktop.ini
+
+Editor and IDE files
+
+.vscode/ .idea/ *.sublime-project *.sublime-workspace
